@@ -1,9 +1,18 @@
-.top{
+body{
+    font-family: "Roboto", serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
     display: flex;
     background-color: #1F2937;
-    justify-content: space-around;
-   
-    
+    justify-content: space-between;
+    padding: 20px 0 0
+}
+.links{
+    padding-right: 400px;
 }
 .logotext{
     display: flex;
@@ -11,19 +20,107 @@
     align-items: center; 
     font-size: 24px;
     color: #F9FAF8;
-    font-family: "Roboto", serif;    
+    font-weight: bold;  
+    margin-left: 400px;
 }
 ul{
     list-style-type: none;
     display: flex;
     gap: 15px;
-    justify-content: center;
-    padding: 5px;
-    font-size: 18px;
-    
+    justify-content: center;   
 }
 a{
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
+}
+.upperbody{
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    padding-top: 100px;
+    gap: 50px;
+    padding-bottom: 100px;
+    flex-grow: 1;
+}
+.hero{
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    justify-content: center;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+.hero .text{
+    margin-top: 10px;
+    font-size: 18px;
+    
+}
+.hero h1{
+    font-size: 48px;
+    font-weight: bold;
+}
+.imageholder{
+    display: flex;    
+    background-color: #9ea4acaf;
+    width:600px;
+    margin-right: 200px;
+    justify-content: center;
+    align-items: center;   
+    color: white;
+    font-size: 18px;
+}
+button{
+    
+    background-color: #3882F6;
+    width:120px;
+    padding: 5px;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #F9FAF8;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 0px;
+    border: 0px;
+    margin-top: 10px;
+}
+.middleupper{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;       
+}
+.cube{
+    height: 200px;
+    width: 200px;
+    border: 6px solid #3882F6;
+    border-radius: 15px;
+    background-color: white;
+}  
+.vert{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+.vert .text{
+    padding-top: 10px;
+    font-size: 18px;
+ }
+.container{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+}
+.middletitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 0 1em 0;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
 }
